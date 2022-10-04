@@ -22,20 +22,16 @@
 
 .logo {
     float: left;
-    width: 100px;
-    height: auto;
-    padding-left: 5px;
-}
-
-.logo {
-    float: left;
-    width: 100px;
+    width: 200px;
     height: auto;
 }
 
 body {
-    background-image: url(images/bg.jpg);
-    background-repeat: no-repeat;
+    background: url(images/blueBG.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     font-family: 'Alright', sans-serif;
     color: white;
     height: 100%;
@@ -123,10 +119,16 @@ ul {
 
 }
 
+
 #mylives {
     font-size: 1.6em;
     text-align: center;
     display: block;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid;
 }
 
 button {
