@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="site.css">
+    </link>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="engine.js"> </script>
+</head>
+
+<div class="topnav">
+    <a href="index.html">
+        <img class="logo" src="images/TV2Charlie.svg" a href="index.html">
+    </a>
+  
+
+</div>
+
+<body>
+    <div class="wrapper">
+        <h1 style="color: rgb(255, 90, 25); font-weight: bolder; font-style: italic;">Lykkehjul!</h1>
+    </div>
+
+    <p id="catagoryName"></p>
+
+    <div class="wrapper">
+        <div id="buttons">
+        </div>
+        <div id="hold">
+        </div>
+        <p id="mytotal"></p>
+
+        <div>
+            <button id="spin" style="border:0; display: inline-block; margin-right: 26px;">Spin</button>
+            <div style="display: inline-block;">
+            <div style="display: inline-block;">Værdien af dit spin:</div>
+            <div style="display: inline-block; width: 30px;" id="myspin" width=180px;></div>
+            </div>
+        </div>
+
+        <div>
+            <button id="submitGuess" style="background-color: rgb(255, 90, 25); color: white; border: 0; width: 180px;">Gæt ordet</button>
+        <input type="text" id="fullGuess" placeholder ="Gæt hele ordet hér" name="fullGuess" style="width: 180px; margin: 10px; height: 30px;">
+        </div>
+
+        <div class="container">
+            <button id="reset" style="border:0;">Genstart Spil</button>
+        </div>
+    </div>
+</body>
